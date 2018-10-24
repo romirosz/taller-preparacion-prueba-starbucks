@@ -1,0 +1,157 @@
+header{
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
+
+}
+
+.barra-verde{
+	background-color: #0a6242;
+	height: 1em;
+
+}
+
+.navbar {
+    min-height: 64px;
+  
+}
+
+.navbar-right {
+	position: relative;
+	top: 6px;
+}
+
+.navbar-brand img{
+	height: 2em;
+	
+	
+}
+
+.btn-default {
+    color: white;
+    background-color: rgb(0,0,0,0.5);
+    border-color:#333;
+    border-radius: 17px;
+
+}
+
+.imagen{
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 10px;
+}
+
+.imagenes-vasos{
+	background-image: url(../images/banner1.jpg);
+		
+}
+
+.imagen-estrellas{
+	background-image: url(../images/stars2.png);
+}
+
+.imagen-beans{
+	background-image: url(../images/beans.png);
+}
+
+.texto{
+	background-color: rgb(0,0,0,0.5);
+	color: white;
+	display: block;
+	position: relative;
+	width: 531px;
+	top: 8em;
+	right: -407px;
+	padding: 4em;
+	text-align: center;
+	border-radius: 54px;
+	
+}
+
+.texto h3{
+	font-size: 20px;
+}
+.texto span{
+	font-size: 30px;
+}
+
+.texto--right{
+	background-color: rgb(0,0,0,0.5);
+	color: white;
+	display: block;
+	position: relative;
+	width:531px; 
+	top: 3em;
+	right: 7em;
+	float: right;
+	padding: 4em;
+	text-align: center;
+	border-radius: 54px;
+	
+}
+
+.texto--right h3{
+	font-size: 20px;
+}
+.panel-footer{
+	text-align: center;
+	font-size: 1em;
+	
+}
+
+.panel-footer img{
+	height: 3em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	
+	
+}
+
+.panel-footer i{
+	font-size: 36px;
+	
+}
+
+.barra-negra{
+	background-color:black;
+	height: 1em;
+	margin-bottom: 1em;
+
+}
+
+@media only screen and (max-width : 767px) {
+
+header{
+	position: fixed;
+	width: 101vw;
+	z-index: 1;
+	margin-bottom: 15px;
+}
+.btn-default {
+    color: white;
+    background-color: rgb(0,0,0,0.5);
+    border-color:#333;
+    border-radius: 17px;
+
+}
+
+.imagen{
+	background-size: cover;
+	height: 205px;
+	width: 374px;
+	margin-bottom: 10px;
+
+}
+
+
+.texto{
+	display: none;
+	
+}
+
+.texto--right{
+display: none;
+}
+
+
+}
